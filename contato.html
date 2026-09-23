@@ -9,7 +9,56 @@
     <header>
         <h1>TechStore</h1>
         <nav>
-            
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre a Loja</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <hr>
+
+    <!--Conteúdo Principal-->
+    <main>
+        <section>
+            <h2>Fale Conosco</h2>
+            <p>Tem dúvidas sobre algum produto, pedido ou suporte técnico? Entre em contato conosco através dos nossos canais ou preencha o formulário abaixo.</p>
+            
+            <p>
+                <strong>E-mail de suporte:</strong><a href="suporte@techstore.com">suporte@techstore.com</a><br>
+                <strong>Telefone / WhatsApp:</strong> (11) 99999-9999
+            </p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h3>Formulário de Atendimento</h3>
+
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Envie sua mensagem</legend>
+
+                    <br>
+                    <label for="nome">Nome Completo:</label><br>
+                    <input type="email" id="email" name="email" required placeholder="seu@email.com">
+
+                    <br><br>
+                    <label for="assunto">Assunto:</label><br>
+                    <select id="assunto" name="assunto">
+                        <option value="duvida">Dúvida sobre Produto</option>
+                        <option value="pedido">Acompanhamento de Pedido</option>
+                        <option value="suporte">Outro Assunto</option>
+                        <option value="outro">Outro Assunto</option>
+                    </select>
+
+                    <br><br>
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="5" cols="40" required placeholder=""
+                </fieldset>
+            </form>
+        </section>
+    </main>
     </body>
 </html>
